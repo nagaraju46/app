@@ -18,7 +18,7 @@ export default function Meals(){
    
     useEffect(()=>{
         async function fetchMeals(){
-            const response= await fetch('http://localhost:3000/meals');
+            const response= await fetch('https://app-0sx8.onrender.com/meals');
             if(!response.ok){
                 console.log("error in ftecing the meals")
                 alert("error in fecting the meal")

@@ -25,7 +25,7 @@ export default function Cart(){
         <ul >
         {crtcontxt.items.map(item=>{
             return (<li key={item.id} className='li'>
-            <img className="img" src={`http://localhost:3000/${item.image}`} alt="meal picture" />
+            <img className="img" src={`https://app-0sx8.onrender.com/${item.image}`} alt="meal picture" />
               <h3 className =""> {item.name}</h3>  
                 <br/>
             <p className=""> ${item.price}</p>

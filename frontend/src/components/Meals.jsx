@@ -38,7 +38,7 @@ export default function Meals(){
    <ul id="meals">
          {meals.map(key=>{
             return(<li key={key.id} className="meal-item">
-              <img className=".meal-item " src={`http://localhost:3000/${key.image}`} alt="meal picture" /> 
+              <img className=".meal-item " src={`https://app-0sx8.onrender.com/${key.image}`} alt="meal picture" /> 
               <h3 className ="meal-item h3"> {key.name}</h3>  
                 <br/>
             <p className=".meal-item-price"> ${key.price}</p>

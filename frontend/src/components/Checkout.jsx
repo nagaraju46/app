@@ -21,7 +21,7 @@ export default function Checkout(){
 
         try {
             console.log("hii re")
-            const response = fetch('http://localhost:3000/orders', {
+            const response = fetch('https://app-0sx8.onrender.com/orders', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ 
